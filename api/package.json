@@ -1,0 +1,24 @@
+{
+  "name": "meal-app-api",
+  "version": "1.0.0",
+  "description": "a simple meal booking api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/peerichie/Meal-app.git"
+  },
+  "keywords": [
+    "meal",
+    "food",
+    "eat"
+  ],
+  "author": "richard pepple",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/peerichie/Meal-app/issues"
+  },
+  "homepage": "https://github.com/peerichie/Meal-app#readme"
+}
