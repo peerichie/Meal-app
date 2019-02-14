@@ -1,0 +1,85 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background: lightgrey;
+}
+#sidemenu{
+    background: black;
+    max-width: 280px;
+    width: 280px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+}
+#sidemenu h1{
+    color: #fff;
+}
+#sidemenu ul
+{
+    padding-top: 100px;
+}
+ul a{
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    padding: 15px 30px;
+    font-weight: 300;
+    transition: all 0.5s ease-in-out
+}
+a:hover{
+    background: darkslateblue;
+    border-left: 5px solid lawngreen;
+    padding: 15px 25px 15px 25px;
+}
+ul  .fa{
+    color: lawngreen;
+    font-size: 1.4rem;
+    margin-right: 0.8rem;
+    display: inline-block;
+    width: 30px;
+    position: relative;
+    top: 2px;
+}
+a:active{
+    background:darkred;
+    border-left: 5px solid lawngreen;
+    padding: 15px 25px 15px 25px;
+}
+
+header{
+    margin-left: 280px;
+    padding: 20px;
+    background: #fff;
+}
+.search .fa{
+    color: darkgray;
+}
+    input[type="text"]{
+        background: transparent;
+        border: none;
+        font-size: 1.5rem;
+        color: lawngreen;
+        padding: 10px;
+        font-weight: 100;
+    }
+.user{
+    display: inline-block;
+    float: right;
+    padding: 10px;
+}
+   .user a{
+        display: inline-block;
+        padding-right: 20px; 
+        text-decoration: none;
+    }
+.notification {
+    position: relative;
+}
+.notification .circle{
+    background: red;
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+}
