@@ -20,5 +20,18 @@
   "bugs": {
     "url": "https://github.com/peerichie/Meal-app/issues"
   },
-  "homepage": "https://github.com/peerichie/Meal-app#readme"
+  "homepage": "https://github.com/peerichie/Meal-app#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "eslint": "^5.13.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "nodemon": "^1.18.10"
+  },
+  "scripts": {
+
+    "start": "nodemon index.js"
+ 
+  }
 }
